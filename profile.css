@@ -9,8 +9,6 @@ body{
     justify-content: center;
     padding: 20px;
     background-color: #f4f4f9;
-    /* height: 50%; */
-    /* width: 80%; */
 }
 article[data-testid="test-profile-card"] {
     justify-content: center;
@@ -26,16 +24,7 @@ article[data-testid="test-profile-card"] {
     padding: 80px;
     text-align: center;
 }
-    /* max-width: 900px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    height: 400px; */
-
 img[data-testid="test-user-avatar"] {
-    /* width: 30%; */
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -53,10 +42,6 @@ nav ul{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* p[data-test-id="test-user-time"]{
-    padding: 10px;
-    margin-top: 50px;
-} */
 section{
     padding: 5px;
 }

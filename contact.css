@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+ body{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+ }
+ #cotact-form{
+    justify-content: center;
+    width: 40%;
+    display: block;
+    height: auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px ;
+    border: none;
+    border-radius: 60px;
+    margin: 500 auto 100 auto;
+    margin-top: 70px;
+    padding: 80px;
+    text-align: center;
+ }
+ form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+ }
+ form input:focus, form textarea:focus {
+    border-color: #1e90ff;
+    outline: none;
+}
+form button {
+    display: block;
+    width:100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover{
+    background-color: #0078e7;
+}
+#sucess{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+[id="error-"] {
+    color: green;
+    font-size: 0.9rem;
+    margin-top: -o.8rem;
+    margin-bottom: 0.8rem;
+}
+@media (max-width: 600px) {
+    main, form {
+        width: 90%;
+        padding: 1.5rem;
+        margin: auto;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
